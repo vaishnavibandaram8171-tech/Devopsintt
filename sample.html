@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sample Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 0 20px;
+            color: #333;
+        }
+        header, footer {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This is a sample page built with <strong>HTML5</strong>. You can learn more about web standards at <a href="https://mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a>.</p>
+            <img src="https://placeholder.com" alt="Sample placeholder banner" width="600" height="200">
+        </section>
+
+        <section id="features">
+            <h2>Included Elements</h2>
+            <ul>
+                <li>Semantic layout tags (<code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>)</li>
+                <li>Text formatting with headings and paragraphs</li>
+                <li>Navigation links and external hyperlinks</li>
+                <li>An interactive input form</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Sample Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
